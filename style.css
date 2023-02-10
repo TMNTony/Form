@@ -38,8 +38,23 @@ div{
 
 .side {
     width: 30%;
+    display: flex;
+    flex-direction:column;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 72px;
+    background-color: rgba(4, 4, 4, 0.408);
+    margin-top: 50px;
 }
 
 .main {
     width: 70%;
+}
+
+.odin {
+  height: 72px;
 }
