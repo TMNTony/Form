@@ -7,7 +7,6 @@
         height: 100%;
         display: flex;
         flex-direction: row;
-        border: 1px solid black;
     }
   
   #bg {
@@ -32,9 +31,6 @@ h1 {
     justify-content: center;
 }
 
-div{
-    border: 1px solid black;
-}
 
 .side {
     width: 30%;
@@ -45,11 +41,11 @@ div{
 .logo {
     display: flex;
     justify-content: center;
-    align-items: center;
     color: whitesmoke;
     font-size: 82px;
     background-color: rgba(4, 4, 4, 0.408);
     margin-top: 50px;
+    height: 80px;
 }
 
 .main {
@@ -63,7 +59,14 @@ div{
 }
 
 form {
+
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
   height:33%;
+  align-items: center;
+  background-color: white;
+  box-shadow: 10px 10px 10px black;
 }
 
 .top {
@@ -71,11 +74,31 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: whitesmoke;
+  background-color:rgb(238, 232, 232);
   font-size: 20px;
 }
 
+
 .bottom {
-  height: 33%;
-  background-color: whitesmoke;
+  background-color: rgb(238, 232, 232);
+  height:33%;
+  margin-top: 10px;
+
+}
+
+fieldset{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 0;
+}
+
+.login {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 30px;
+  margin-left: 10px;
 }
